@@ -523,9 +523,3 @@ body {
     border-radius: 100px;
     height: 0.2rem;
 }
-.stickynavbar{
-    position: sticky;
-    top: 0px;
-    z-index: 10;
-    background-color: #121212;
-}
