@@ -1,0 +1,11 @@
+.navbar{
+    height: 5rem;
+    background-color: white;
+
+}
+.fa-hotel{
+    color: #fe424d;
+}
+.nav-link{
+    color: #222222 !important;
+}

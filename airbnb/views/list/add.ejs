@@ -1,0 +1,11 @@
+<% layout("layoutss/boilerplate") %>
+<body>
+    <form action="/add" method="post">
+        <input type="text" name="list[title]" placeholder="Title">
+        <textarea name="list[description]" placeholder="Description" cols="30" rows="10"></textarea>
+        <input type="number" name="list[price]" placeholder="Enter price">
+        <input type="text" name="list[location]" placeholder="enter loction">
+        <input type="text" name="list[country]" placeholder="enter country">
+        <button>Add</button>
+    </form>
+</body>

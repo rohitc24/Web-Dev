@@ -1,0 +1,9 @@
+<% layout("layoutss/boilerplate") %>
+<body>
+    <h1>All Lists</h1>
+    <% for(res of result ) { %>
+        <ul>
+            <a href="/show/<%= res.id %>"><li><%= res.title %></li></a>
+        </ul>
+    <% } %>   
+</body>

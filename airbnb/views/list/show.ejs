@@ -1,0 +1,16 @@
+<% layout("layoutss/boilerplate") %>
+<body>
+    <div>
+        <h1>Title:<%= item.title %></h1>
+        <ul>
+            <li>Description:<%= item.description %></li>
+            <li>price:<%= item.price %></li>
+            <li>location:<%= item.location %></li>
+            <li>country:<%= item.country %></li>
+        </ul>
+    </div>
+    <a href="/edit/<%= item.id %>">EDIT</a>
+    <form action="/delete/<%= item.id %>?_method=delete" method="post">
+        <button>Delete</button>
+    </form>
+</body>
