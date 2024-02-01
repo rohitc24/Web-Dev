@@ -1,0 +1,55 @@
+.container{
+    width: 500px;
+    margin: auto;
+    border: 2px solid rgb(122, 104, 104);
+    box-shadow: 10px 1px 20px 10px black;
+    background-color: rgb(109, 154, 154);
+}
+h1{
+   text-align: center;
+   background: rgb(158,25,126);
+   color: transparent;
+   -webkit-background-clip: text;
+   background-clip: text;
+}
+.separation{
+    display: flex;
+    gap: 420px;
+    border-bottom: 2px solid black;
+}
+.separation i{
+    margin: 10px 10px ;
+    font-size: 20px;
+}
+.element{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+
+}
+.answer{
+    height: 100px;
+    
+
+}
+button{
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    font-size: 20px;
+    color: white;
+    background:linear-gradient(45deg, blue,green,yellow);
+    opacity: 0.7;
+    border: none;
+    
+}
+input{
+    width: 490px;
+    height: 90px;
+    color: blue;
+    font-size: 30px;
+}
+.cross:hover{
+    cursor: pointer;
+}
